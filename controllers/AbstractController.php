@@ -18,7 +18,7 @@ class AbstractController extends Controller
 {   
     use ContainerAwareTrait;
     
-    public $layout = 'layout';
+    public $layout = 'main';
     public $enableCsrfValidation = false;
     
     public function __construct($id, $module, $config = [])
